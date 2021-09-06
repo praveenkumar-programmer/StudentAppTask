@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.geeks4ever.studentapptask">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudentAppTask">
+        <activity
+            android:name=".view.ShowDataPage"
+            android:exported="true" />
+        <activity
+            android:name=".view.MapViewPage"
+            android:exported="true" />
+        <activity
+            android:name=".view.ViewDataPage"
+            android:exported="true" />
+        <activity
+            android:name=".view.AddLocationPage"
+            android:exported="true" />
+        <activity
+            android:name=".view.AddDataPage"
+            android:exported="true" />
+        <activity
+            android:name=".view.AuthPage"
+            android:exported="true" />
+        <activity
+            android:name=".view.HomePage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

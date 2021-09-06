@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "758494705939",
+    "project_id": "studentapp-4d401",
+    "storage_bucket": "studentapp-4d401.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758494705939:android:203837a4850351e18042e6",
+        "android_client_info": {
+          "package_name": "com.geeks4ever.studentapptask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758494705939-47j2krl1ckgetg9qgfnbpasvagd3ttrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWCgu1XiLlLDmKIZ40ZuwDlr_j69MQqK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758494705939-47j2krl1ckgetg9qgfnbpasvagd3ttrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
