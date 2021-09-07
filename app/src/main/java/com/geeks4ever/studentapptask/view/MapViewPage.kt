@@ -1,12 +1,12 @@
 package com.geeks4ever.studentapptask.view
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.geeks4ever.studentapptask.R
 
 class MapViewPage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_map_view_page)
+        setContentView(R.layout.map_view_page)
     }
 }
